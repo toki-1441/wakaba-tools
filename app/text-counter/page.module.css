@@ -1,0 +1,104 @@
+/* app/text-counter/page.module.css */
+.container {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  color: #023859;
+}
+
+.results {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 1.5rem;
+}
+
+.resultItem {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.count {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #07D9B2;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6c757d;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 400px;
+  padding: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  border: 1px solid #DAF2C2;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.textarea:focus {
+  outline: 2px solid #07D9B2;
+  border-color: transparent;
+}
+
+/* ADD THESE STYLES TO app/text-counter/page.module.css */
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.helpIcon {
+  position: relative; /* This is key for positioning the tooltip */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: #e9ecef;
+  color: #6c757d;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none; /* Prevents text selection */
+}
+
+.tooltip {
+  position: absolute;
+  left: 120%; /* Position to the right of the icon */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 280px; /* Set a fixed width */
+  padding: 1rem;
+  background-color: #023859; /* Dark blue from your theme */
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  text-align: left;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.tooltip h4 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #34495e;
+  padding-bottom: 0.5rem;
+}
+
+.tooltip p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}

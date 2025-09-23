@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wakaba Tools 🌿
 
-## Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-First, run the development server:
+あなたの「ちょっとした作業」を、ブラウザだけで安全・快適に。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+`Wakaba Tools`は、ソフトウェアをインストールすることなく、日常で発生する細々としたデジタル作業を完結させることを目的とした、多機能ツールキットです。制作者`toki-1441`によって開発されています。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## コンセプト (Core Concepts)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`Wakaba Tools`は3つの重要なコンセプトに基づいています。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **🔐 絶対的なプライバシー保護 (Absolute Privacy)**
+  すべてのデータ処理はあなたのブラウザ内で完結します。画像、テキスト、その他のファイルがサーバーにアップロードされることは一切ありません。あなたのプライバシーは完全に保護されます。
 
-## Learn More
+- **🌐 オフラインでも利用可能 (Available Offline)**
+  主要なツールはインターネット接続がない場所でも利用できます。飛行機の中や外出先など、どこでもあなたの作業をサポートします。
 
-To learn more about Next.js, take a look at the following resources:
+- **🌿 シンプルで直感的な操作性 (Intuitive UI)**
+  プロジェクト名の「若葉」が示すように、フレッシュで分かりやすいデザインを目指しています。誰でも迷うことなく、目的の作業をすぐに完了できる操作性を提供します。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 搭載ツール (Features & Roadmap)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`Wakaba Tools`は、以下のツール群を提供（または提供予定）しています。
 
-## Deploy on Vercel
+#### 🖼️ 画像ツール (Image Tools)
+- **拡張子変換** (JPG, PNG, WebPなど)
+- **解像度変換** (リサイズ)
+- **トリミング** (切り抜き)
+- *(将来的)* 画像圧縮、ウォーターマーク追加など
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### ✍️ テキストツール (Text Tools)
+- **文字数カウント**
+- **大文字・小文字変換**
+- **JSONフォーマッター & バリデーター**
+- *(将来的)* Markdownプレビュー、Base64エンコード/デコードなど
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### 🎲 生成ツール (Generator Tools)
+- **QRコード生成**
+- **パスワード生成**
+- *(将来的)* UUID生成、ダミーテキスト生成など
+
+## 技術スタック (Tech Stack)
+
+このプロジェクトは、モダンなウェブ技術によって構築されています。
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Deployment**: [Vercel](https://vercel.com/)
+- **Image Processing**: [Jimp](https://github.com/jimp-dev/jimp)
+
+## 制作者 (Author)
+
+- **Raica**
+- [GitHub](https://github.com/toki-1441) 
+
+## ライセンス (License)
+
+このプロジェクトは[MITライセンス](LICENSE)の下で公開されています。
