@@ -7,6 +7,9 @@ import styles from './Sidebar.module.css';
 
 const navItems = [
   { name: '画像拡張子変換', path: '/image-converter' },
+  { name: '画像リサイザー', path: '/image-resizer' },
+  { name: '画像クロップ', path: '/image-cropper' }, 
+  { name: '背景透過', path: '/background-remover' },
   { name: '文字数カウンター', path: '/text-counter' },
 ];
 

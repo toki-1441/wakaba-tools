@@ -1,0 +1,47 @@
+/* app/image-cropper/page.module.css */
+/* 他のツールと共通のスタイルを再利用 */
+.container {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  color: #023859;
+}
+.button, .downloadLink {
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  transition: all 0.2s ease;
+}
+.button {
+  margin-top: 1rem;
+  background-color: #07D9B2;
+  color: white;
+}
+.button:hover {
+  background-color: #04D99D;
+}
+.downloadArea {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #e9ecef;
+  padding-top: 2rem;
+}
+.downloadLink {
+  background-color: #F2DC6B;
+  color: #023859;
+}
+.downloadLink:hover {
+  transform: scale(1.05);
+}
+.previewImage {
+  margin-top: 1rem;
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 8px;
+}
+.cropContainer {
+  margin-top: 2rem;
+}

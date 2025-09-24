@@ -1,0 +1,102 @@
+/* app/image-resizer/page.module.css */
+/* 基本的なスタイルは他のツールと共通 */
+.container {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  color: #023859;
+}
+.uploadArea {
+  padding: 2.5rem;
+  border: 2px dashed #07D9B2;
+  border-radius: 8px;
+  text-align: center;
+}
+.previewImage {
+  margin-top: 1.5rem;
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 8px;
+}
+.button, .downloadLink {
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  transition: all 0.2s ease;
+}
+.button {
+  background-color: #07D9B2;
+  color: white;
+}
+.button:hover {
+  background-color: #04D99D;
+}
+.downloadArea {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #e9ecef;
+  padding-top: 2rem;
+}
+.downloadLink {
+  background-color: #F2DC6B;
+  color: #023859;
+}
+.downloadLink:hover {
+  transform: scale(1.05);
+}
+
+/* リサイザー専用スタイル */
+.controls {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.dimensionInput {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.dimensionInput input {
+  width: 80px;
+  padding: 0.5rem;
+  border: 1px solid #DAF2C2;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.unitSelector {
+  display: flex;
+  border: 1px solid #DAF2C2;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.unitSelector button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #6c757d;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.unitSelector button.active {
+  background-color: #023859;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.unitSelector button:first-child {
+  border-right: 1px solid #DAF2C2;
+}
