@@ -16,6 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        <meta name="theme-color" content="#023859" />
+        <link rel="manifest" href="/manifest.json" />
+      </head>
       <body>
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
           <Header />

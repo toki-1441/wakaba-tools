@@ -1,0 +1,21 @@
+{
+  "name": "Wakaba Tools",
+  "short_name": "Wakaba Tools",
+  "description": "ブラウザで完結する安全・手軽なクライアントサイド・ユーティリティ・スイート",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#DAF2C2",
+  "theme_color": "#023859",
+  "icons": [
+    {
+      "src": "/icons/icon192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
