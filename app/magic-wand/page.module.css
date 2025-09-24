@@ -1,0 +1,89 @@
+.container {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.description {
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+.uploadArea {
+  padding: 2.5rem;
+  border: 2px dashed #07D9B2;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.controls {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.controls label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #023859;
+}
+.slider {
+  width: 100%;
+  max-width: 400px;
+}
+.workspace {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+.imageContainer {
+  text-align: center;
+}
+.imageContainer h3 {
+  color: #023859;
+}
+.imageContainer img {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+.resultBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  background-image: 
+    linear-gradient(45deg, #eee 25%, transparent 25%), 
+    linear-gradient(-45deg, #eee 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #eee 75%),
+    linear-gradient(-45deg, transparent 75%, #eee 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  border-radius: 8px;
+}
+.downloadArea {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #e9ecef;
+  padding-top: 2rem;
+}
+.downloadLink {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: #F2DC6B;
+  color: #023859;
+  text-decoration: none;
+}
+.instructions {
+  text-align: center;
+  font-weight: bold;
+  color: #07D9B2;
+  margin-bottom: 1.5rem;
+}
+
+.clickableImage {
+  cursor: crosshair;
+}

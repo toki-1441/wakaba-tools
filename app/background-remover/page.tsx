@@ -70,7 +70,7 @@ const BackgroundRemover = () => {
 
   return (
     <div className={styles.container}>
-      <h2>AI 背景透過ツール</h2>
+      <h2>AI 背景除去ツール</h2>
       <p className={styles.description}>
         最新のAIモデルが、写真から背景を自動で取り除きます。
       </p>
