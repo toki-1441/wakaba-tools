@@ -12,6 +12,7 @@ const navItems = [
   { name: '画像背景除去', path: '/background-remover' },
   { name: 'マジック透過ツール', path: '/magic-wand' },
   { name: '文字数カウンター', path: '/text-counter' },
+  { name: 'QRコードジェネレーター', path: '/qrcode-generator' },
 ];
 
 const Sidebar = () => {

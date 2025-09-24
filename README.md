@@ -57,3 +57,6 @@
 ## ライセンス (License)
 
 このプロジェクトは[MITライセンス](LICENSE)の下で公開されています。
+
+### 参考・貢献
+[background-removal-js](https://github.com/imgly/background-removal-js)
